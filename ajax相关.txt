@@ -1,0 +1,13 @@
+function myFirst(){
+
+ 		
+ 		$("#we").html("这里是最新的内容……");
+
+ 		}
+
+
+
+正式进军JS~~~
+		<h1 id="we">这里是将要被代替的内容！</h1>
+
+		<button onclick="myFirst()">见证奇迹</button>

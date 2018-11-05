@@ -1,0 +1,11 @@
+mysql安装路径：
+D:\Program Files\mysql\mysql-8.0.11-winx64
+参考安装教程：
+https://blog.csdn.net/qq_33679312/article/details/81021565
+https://blog.csdn.net/m_uncle/article/details/80831118
+
+安装过程密码： hQSqaHbNp7._
+重新设置的密码为：1234
+
+navicat 安装及破解教程：
+https://www.cnblogs.com/da19951208/p/6403607.html

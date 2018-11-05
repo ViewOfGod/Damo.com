@@ -1,0 +1,16 @@
+﻿
+Stringתdate
+https://www.cnblogs.com/zhang-yan/p/7733005.html
+
+		if ((!StringUtils.isEmpty(createTimefrom))&&(!StringUtils.isEmpty(createTimeto))) {
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			try {
+				Date datefrom = sdf.parse(createTimefrom);
+				Date dateto = sdf.parse(createTimeto);
+				
+				criteria.andCreateTimeBetween(datefrom, dateto);
+	
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+		}
