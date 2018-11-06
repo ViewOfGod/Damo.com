@@ -1,6 +1,6 @@
 
 前台向后台传多个数据时，可用split分隔开，然后用for循环一个一个接收
 https://www.cnblogs.com/mingforyou/archive/2013/09/03/3299569.html
-
-增强for循环，遍历数组
+   
+增强for循环，遍历数 组
 https://jingyan.baidu.com/article/455a9950570b91a166277809.html
