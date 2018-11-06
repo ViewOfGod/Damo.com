@@ -1,0 +1,34 @@
+ls -a 显示当前文件夹内容
+
+git文件的4中状态：
+1untracked  未被追踪的
+2modified    表示工作区修改了某个文件，但是还没有添加到暂存区
+3staged       表示工作区修改的文件添加到了暂存区但是没有提交到版本库
+4committed 表示数据被安全的存储在本地库中
+
+git的3层结构
+working directory 工作区
+staging index暂存区
+git directory（Repository）版本库
+
+git config：
+git config --global user.name Ligh
+git config --global user.email liguanghui@hzzl.net
+git config --list
+
+Git撤销操作
+git commit --amend
+git checkout --filename 撤回对文档的修改，使其恢复到之前的状态（在工作区）
+git reset HEAD --filename 从暂存区撤回到工作区
+
+git删除文件
+git rm filename
+git mv filename
+
+git branch 分支名<——创建新分支
+git branch -d 分支名<——删除分支
+git branch -m 旧名 新名 <——更换分支名字
+git checkout -d 分支名 <——创建分支，并切换到这个分支
+
+合并
+git merge 另一个分支名
